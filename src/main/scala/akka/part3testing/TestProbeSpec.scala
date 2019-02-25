@@ -4,7 +4,7 @@ import akka.actor.{ActorSystem, Props}
 import akka.testkit.{ImplicitSender, TestKit, TestProbe}
 import org.scalatest.{BeforeAndAfterAll, WordSpecLike}
 
-class TestPropeSpec extends TestKit(ActorSystem("TestPropeSpec"))
+class TestProbeSpec extends TestKit(ActorSystem("TestPropeSpec"))
   with ImplicitSender // gives us a 'testActor' that sends all the messages from the test
   with WordSpecLike with BeforeAndAfterAll {
 
@@ -12,7 +12,7 @@ class TestPropeSpec extends TestKit(ActorSystem("TestPropeSpec"))
     TestKit.shutdownActorSystem(system)
   }
 
-  import TestPropeActors._
+  import TestProbeActors._
 
   "A master actor" should {
     "register a slave" in {

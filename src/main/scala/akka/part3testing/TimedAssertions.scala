@@ -1,7 +1,6 @@
 package akka.part3testing
 
 import akka.actor.Actor
-
 import scala.util.Random
 
 object TimedAssertions {

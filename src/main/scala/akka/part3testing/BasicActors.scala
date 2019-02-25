@@ -1,7 +1,6 @@
 package akka.part3testing
 
 import akka.actor.{Actor, ActorSystem, Props}
-
 import scala.util.Random
 
 object BasicActors extends App {

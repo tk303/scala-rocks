@@ -4,9 +4,9 @@ import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 
 import scala.collection.immutable
 
-object ChildActorExcercises extends App {
+object ChildActorExercises extends App {
 
-  // Distrubuted Word counting
+  // Distributed Word counting
 
   object WordCounterMaster {
     case class Inititialize(nChildren: Int)
@@ -35,7 +35,7 @@ object ChildActorExcercises extends App {
         val newRequestMap = requestMap + (currentTaskId -> originalSender)
         context.become(withChildren(childrenRefs, nextChildIndex, newTaskId, newRequestMap))
       case WordCountReply(id, count) =>
-        println(s"[master] I have received a replyfor task id $id with $count")
+        println(s"[master] I have received a reply for task id $id with $count")
         val originalSender = requestMap(id)
         originalSender ! count
         context.become(withChildren(childrenRefs, currentChildIndex, currentTaskId, requestMap - id))

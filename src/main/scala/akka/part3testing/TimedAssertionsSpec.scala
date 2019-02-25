@@ -1,7 +1,6 @@
 package akka.part3testing
 
 import akka.actor.{ActorSystem, Props}
-import akka.part3testing.TestPropeActors.{Master, Register, RegistrationAck}
 import akka.testkit.{ImplicitSender, TestKit, TestProbe}
 import com.typesafe.config.ConfigFactory
 import org.scalatest.{BeforeAndAfterAll, WordSpecLike}

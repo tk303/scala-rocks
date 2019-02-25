@@ -1,6 +1,6 @@
 package akka.part3testing
 
-import akka.actor.{Actor, ActorSystem, Props}
+import akka.actor.{ActorSystem, Props}
 import akka.part3testing.BasicActors.{BlackHole, LabTestActor, SimpleActor}
 import akka.testkit.{ImplicitSender, TestKit}
 import org.scalatest.{BeforeAndAfterAll, WordSpecLike}

@@ -2,7 +2,7 @@ package akka.part3testing
 
 import akka.actor.{Actor, ActorRef}
 
-object TestPropeActors extends App {
+object TestProbeActors extends App {
 
   // scenario
 
