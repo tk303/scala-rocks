@@ -7,13 +7,9 @@ object StartingStoppingActors extends App {
   val system = ActorSystem("StoppingActorsDemo")
 
   object Parent {
-
     case class StartChild(name: String)
-
     case class StopChild(name: String)
-
     object Stop
-
   }
 
   class Parent extends Actor with ActorLogging {

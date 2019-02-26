@@ -22,3 +22,15 @@ package: akka.part3testing
     & TimedAssertions
 4. InterceptingLogsSpec
     & InterceptingLogs
+    
+### Fault Tolerance
+package: akka.part4faulttolerance
+1. StartingStoppingActors
+2. ActorLifecycle
+3. SupervisionSpec
+    & Supervision
+4. BackoffSupervisorPattern
+
+### Akka Infrastructure
+package: akka.part4faulttolerance
+1. TimersSchedulers
