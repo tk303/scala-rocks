@@ -8,7 +8,7 @@ package: akka.part2actors
 3. ChangingActorBehaviour
 4. ChangingActorBehaviourDeeper
 5. ChangingActorBehaviourExercises
-    & VoteAggregatorWithStats (under akka.part2actors.excercises)
+    & VoteAggregatorWithStats (under akka.part2actors.exercises)
 6. ChildActors
     & ChildActorExercises
 
@@ -34,3 +34,7 @@ package: akka.part4faulttolerance
 ### Akka Infrastructure
 package: akka.part4faulttolerance
 1. TimersSchedulers
+    & TimersSchedulersExercises
+2. Routers
+3. Dispatchers
+4. Mailboxes

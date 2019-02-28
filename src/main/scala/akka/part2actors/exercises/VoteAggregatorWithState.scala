@@ -1,8 +1,8 @@
-package akka.part2actors.excercises
+package akka.part2actors.exercises
 
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 
-object ChangingActorBehaviourExercises extends App {
+object VoteAggregatorWithState extends App {
 
   val system = ActorSystem("changingActorBehaviourExercises")
 

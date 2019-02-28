@@ -1,11 +1,10 @@
 package akka.part5infra.exercises
 
 import akka.actor.{Actor, ActorLogging, ActorSystem, Cancellable, Props, Timers}
-import akka.part5infra.TimersSchedulers.system
 
 import scala.concurrent.duration._
 
-object TimersSchedulers extends App {
+object TimersSchedulersExercises extends App {
 
   val system = ActorSystem("SchedulersTiersDemo")
 
