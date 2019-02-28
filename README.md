@@ -38,3 +38,7 @@ package: akka.part4faulttolerance
 2. Routers
 3. Dispatchers
 4. Mailboxes
+
+### Akka Patterns
+1. StashDemo
+2. 
