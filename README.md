@@ -41,4 +41,7 @@ package: akka.part4faulttolerance
 
 ### Akka Patterns
 1. StashDemo
-2. 
+2. AskSpec  (the Ask pattern)
+    & AskSpecObject
+3. FSMSpec
+    & FSMSpecObject
